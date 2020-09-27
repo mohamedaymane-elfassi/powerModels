@@ -1,0 +1,72 @@
+AR vs Feature Selection
+
+FINDINGS:
+1) AR1:
+MAPE = 1.15 %
+MAE = 5.68
+RMSE = 7.74
+
+2) AR1h:
+MAPE = 1.10 %
+MAE = 5.68
+RMSE = 7.74
+
+2) AR1hm:
+MAPE = 0.96 %
+MAE = 5.59
+RMSE = 7.54
+
+2) AR2:
+MAPE = 1.13 %
+MAE = 5.68
+RMSE = 7.74
+
+5) AR2h:
+MAPE = 1.08 %
+MAE = 5.69
+RMSE = 7.74
+
+6) AR2hm:
+MAPE = 0.97 %
+MAE = 5.52
+RMSE = 7.47
+
+7) mAR1:
+MAPE = 1.15 %
+MAE = 5.62
+RMSE = 7.70
+
+8) mAR1h:
+MAPE = 1.12 %
+MAE = 5.61
+RMSE = 7.67
+
+9) mAR1hm:
+MAPE = 0.95 %
+MAE = 5.52
+RMSE = 7.47
+
+10) Ridge(lambda = 100):
+MAPE = 1.81 %
+MAE = 6.58
+RMSE = 9.9
+
+11) Lasso(lambda = 5.6234e-4):
+MAPE = 0.99 %
+MAE = 5.57
+RMSE = 7.5
+
+13) EN25(lambda = 3.1622e-03):
+MAPE = 1.74 %
+MAE = 6.41
+RMSE = 9.75
+
+14) EN50(lambda = 1.7782e-03)
+MAPE = 1.72 %
+MAE = 6.36
+RMSE = 9.70
+
+15) EN75(lambda = 1.0e-03)
+MAPE = 1.73 %
+MAE = 6.38
+RMSE = 9.72
