@@ -211,7 +211,7 @@ plt.legend(loc="best")
 ##*******************************##
 ##-------------------------------##
 ##-------------------------------##
-## THE SIMILAR DAY (NAIVE MODEL) ##
+##        THE RIDGE MODEL        ##
 ##-------------------------------##
 ##-------------------------------##
 ###########################################
@@ -285,7 +285,7 @@ forecastDataframe.insert(1, "FCST PRICE", forecastDataset)
 
 
 ####################################
-## APPLYING THE SIMILAR DAY MODEL ##
+##    APPLYING THE RIDGE MODEL    ##
 ####################################
 alphas = np.linspace(100, 200, 34)
 cvRidgeModel = [Ridge(alpha = alphas[i]) for i in range(0, len(alphas))]
