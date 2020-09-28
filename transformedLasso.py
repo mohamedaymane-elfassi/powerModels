@@ -216,7 +216,7 @@ plt.legend(loc="best")
 ##*******************************##
 ##-------------------------------##
 ##-------------------------------##
-## THE SIMILAR DAY (NAIVE MODEL) ##
+##        THE LASSO MODEL        ##
 ##-------------------------------##
 ##-------------------------------##
 ###########################################
@@ -290,7 +290,7 @@ forecastDataframe.insert(1, "FCST PRICE", forecastDataset)
 ###########################################
 
 ####################################
-## APPLYING THE SIMILAR DAY MODEL ##
+##     APPLYING THE LASSO MODEL   ##
 ####################################
 alphas = np.logspace(0, -6, 25)
 cvLassoModel = [linear_model.Lasso(alpha = alphas[i]) for i in range(0, len(alphas))]
