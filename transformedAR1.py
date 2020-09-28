@@ -215,7 +215,7 @@ plt.legend(loc="best")
 ##*******************************##
 ##-------------------------------##
 ##-------------------------------##
-## THE SIMILAR DAY (NAIVE MODEL) ##
+##        THE AR1 MODEL          ##
 ##-------------------------------##
 ##-------------------------------##
 ###########################################
@@ -248,7 +248,7 @@ forecastDataframe.insert(1, "FCST PRICE", forecastDataset)
 
 
 ####################################
-## APPLYING THE SIMILAR DAY MODEL ##
+##     APPLYING THE AR MODEL      ##
 ####################################
 ####################################
 ar1Model = [linear_model.LinearRegression() for j in range(0, 1456*24)]
